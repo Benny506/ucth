@@ -1,0 +1,8 @@
+/* global classes */
+.clickable{
+    cursor: pointer;
+}
+button{
+    border: none;
+    background-color: transparent;
+}

@@ -1,0 +1,149 @@
+/* home */
+
+/* home header */
+.home-header-bg{
+    background: rgba(4, 51, 219, 0.05);    
+}
+.home-header-header-text{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 72.8px */
+    letter-spacing: 2.6px;    
+}
+.home-header-sub-header{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 39.2px */    
+}
+.home-header-text{
+    color: #737373;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */    
+}
+.home-header-appointment-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 25.2px */
+    border-radius: 20px;
+    background: var(--Blue, #0111C1);        
+}
+.home-header-learnmore-btn{
+    color: #000FB0;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 25.2px */
+    border-radius: 20px;
+    border: 1.5px solid #000FB0;        
+}
+
+
+
+/* home about us */
+.home-about-caption{
+    color: #000FB0;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */    
+}
+.home-about-header{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 50.4px */    
+}
+.home-about-text{
+    color: #737373;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */    
+}
+.home-about-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 25.2px */
+    border-radius: 20px;
+    background: #000FB0;        
+}
+
+
+
+
+/* home our services */
+.home-services-title{
+    color: #000FB0;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 39.2px */    
+}
+.home-services-sub-title{
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 44.8px */
+    border-bottom: 1px solid #000FB0;;    
+}
+.home-services-single-service-container{
+    border-radius: 9.538px;
+    box-shadow: 0px 3.81538px 3.81538px 0px rgba(0, 0, 0, 0.25);
+}
+.home-services-single-service-title{
+    font-family: Open Sans;
+    font-size: 21.985px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 29.378px */  
+}
+.home-services-single-service-text{
+    font-family: Open Sans;
+    font-size: 11.538px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 13.354px */   
+}
+.home-services-single-service-btn{
+    font-family: Open Sans;
+    font-size: 11.538px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 13.354px */
+    border-radius: 9.538px;     
+}
+.home-services-service-chevron-container{
+    background-color: rgba(4, 51, 219, 0.05);  
+    transition: all 1s;      
+}
+.home-services-service-chevron-container:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,43 @@
+/* navigation */
+.nav-bg{
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.nav-logo-text{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 26.4px */
+}
+.nav-link-text{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 25.2px */    
+}
+.nav-link-text:hover{
+    color: #000FB0;
+}
+.nav-login-btn{
+    color: #737373;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 25.2px */    
+    color: #FFF;
+    text-align: center;
+    border-radius: 30px;
+    background: #000FB0;    
+}
+.nav-signup-btn{
+    color: #222;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 25.2px */    
+}
