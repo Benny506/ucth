@@ -3,6 +3,8 @@ import './css/navigation.css'
 import logo from '../../assets/logo/logo1.png'
 import { navLinks } from "./navAux";
 import { useLocation } from "react-router-dom";
+import { IoIosMenu } from "react-icons/io";
+
 
 
 export default function Navigation(){
@@ -44,14 +46,14 @@ export default function Navigation(){
     })
 
     return (
-        <div className="py-3 px-5 nav-bg">
-            <div className="d-flex justify-content-between align-items-center">
+        <div className="py-3 px-lg-5 px-4 nav-bg">
+            <div className="d-lg-flex justify-content-between align-items-center d-none">
                 <div className="col-lg-2 d-flex align-items-center">
                     <div>
                         <img src={logo} />
                     </div>
                     <div>
-                        <h1 className="nav-logo-text m-0 p-0 mx-3">MedOasis</h1>
+                        <h1 className="nav-logo-text m-0 p-0 mx-3">UTCH</h1>
                     </div>
                 </div>
                 <div className="col-lg-5 d-flex justify-content-between">
@@ -70,6 +72,20 @@ export default function Navigation(){
                             Login
                         </button>
                     </div>                   
+                </div>
+            </div>
+
+            <div className="d-flex justify-content-between align-items-center d-lg-none">
+                <div className="col-lg-2 d-flex align-items-center">
+                    <div>
+                        <img src={logo} />
+                    </div>
+                    <div>
+                        <h1 className="nav-logo-text m-0 p-0 mx-3">UTCH</h1>
+                    </div>
+                </div>
+                <div>
+                    <IoIosMenu size={30} color="#000" className="clickable" />
                 </div>
             </div>
         </div>

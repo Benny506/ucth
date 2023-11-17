@@ -4,10 +4,10 @@ import homeAboutImg from '../../assets/home/home_about_img.png'
 
 export function HomeAboutUs(){
     return (
-        <div className="py-5 px-5">
-            <div className="d-flex justify-content-between align-items-center">
-                <div className="col-lg-6">
-                    <img src={homeAboutImg} />
+        <div className="py-lg-5 py-4 px-lg-5 px-4">
+            <div className="d-flex flex-wrap justify-content-between align-items-center">
+                <div className="col-lg-6 col-12">
+                    <img src={homeAboutImg} className="col-12" />
                 </div>
                 <div className="col-lg-6 d-flex justify-content-center">
                     <div className="col-lg-10">

@@ -141,9 +141,147 @@
     border-radius: 9.538px;     
 }
 .home-services-service-chevron-container{
-    background-color: rgba(4, 51, 219, 0.05);  
+    background-color: #000FB0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 15, 176, 0.25);
     transition: all 1s;      
 }
 .home-services-service-chevron-container:hover{
     transform: scale(1.1);
+}
+
+
+
+/* home consultation */
+.home-consultation-bg{
+    background-color: #F8F7FF;
+}
+.home-consultation-checked-list-item{
+    color: #737373;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+
+/* home our doctors */
+.home-our-doctors-single-doctor-container{
+    border-radius: 11.988px;
+    background: #F6F6F6;    
+}
+.home-our-doctors-single-doctor-name{
+    color: #737373;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 19.181px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;    
+}
+.home-our-doctors-single-doctor-role{
+    color: #737373;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14.385px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;    
+}
+
+
+
+/* home the numbers */
+.home-the-numbers-bg{
+    border-radius: 30px;
+    background: #000FB0;    
+}
+.home-the-numbers-digit{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%; /* 64.8px */    
+}
+.home-the-numbers-caption{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;    
+}
+
+
+
+/* home our blog */
+.home-our-blog-large-blog-post-btn{
+    border-radius: 9.92px;
+    background: #CCCFEF;
+    color: #000FB0;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 21.824px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.554px */        
+}
+.home-our-blog-large-blog-post-date{
+    color: #737373;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 17.856px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 24.998px */    
+}
+.home-our-blog-large-blog-post-title{
+    color: #0A0F50;
+    font-family: Open Sans;
+    font-size: 23.808px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 33.331px */    
+}
+.home-our-blog-large-blog-post-text{
+    color: #737373;
+    font-family: Open Sans;
+    font-size: 17.856px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 24.998px */    
+}
+.home-our-blog-large-blog-post-read-more{
+    color: #0A0F50;
+    font-family: Open Sans;
+    font-size: 17.856px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;    
+}
+.home-our-blog-small-blog-post-title{
+    color: #0A0F50;
+    font-family: Open Sans;
+    font-size: 20.824px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.554px */    
+}
+.home-our-blog-small-blog-post-text{
+    color: #737373;
+    font-family: Open Sans;
+    font-size: 15.872px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.221px */    
+}
+.home-our-blog-small-blog-post-read-more{
+    color: #0A0F50;
+    font-family: Open Sans;
+    font-size: 15.872px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;    
 }
