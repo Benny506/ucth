@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/utch_site/static/css/main.eff3352f.css",
+    "main.js": "/utch_site/static/js/main.e2560b65.js",
+    "static/js/787.b5ba5925.chunk.js": "/utch_site/static/js/787.b5ba5925.chunk.js",
+    "static/media/home_consultation_img.png": "/utch_site/static/media/home_consultation_img.3f1ba6da11432ed23698.png",
+    "static/media/home_book_appointment_img.png": "/utch_site/static/media/home_book_appointment_img.c4fab04add6725667e3b.png",
+    "static/media/home_about_img.png": "/utch_site/static/media/home_about_img.3b3461f159a1dfbb3140.png",
+    "static/media/home_header_img.png": "/utch_site/static/media/home_header_img.e1b2e7d9950e64b6b90e.png",
+    "static/media/blogImg1.png": "/utch_site/static/media/blogImg1.4d0df96418f619526a3c.png",
+    "static/media/blogImg4.png": "/utch_site/static/media/blogImg4.350feae36ff44c4111b1.png",
+    "static/media/doctor3.png": "/utch_site/static/media/doctor3.6a6caf6ce0a22dfd2ecb.png",
+    "static/media/blogImg2.png": "/utch_site/static/media/blogImg2.f873b1dd7c15bf858529.png",
+    "static/media/doctor8.png": "/utch_site/static/media/doctor8.ad363195770ba89c2fca.png",
+    "static/media/doctor7.png": "/utch_site/static/media/doctor7.1612e9f4b77c2290ed49.png",
+    "static/media/doctor1.png": "/utch_site/static/media/doctor1.3c183a0fb7b2a236c3ce.png",
+    "static/media/blogImg5.png": "/utch_site/static/media/blogImg5.edb36c4a742a03f8e146.png",
+    "static/media/doctor5.png": "/utch_site/static/media/doctor5.bc783115544f89ae0e8d.png",
+    "static/media/doctor2.png": "/utch_site/static/media/doctor2.d425a83b8c007c0efd50.png",
+    "static/media/doctor6.png": "/utch_site/static/media/doctor6.8c16b50a841879adb0ff.png",
+    "static/media/blogImg3.png": "/utch_site/static/media/blogImg3.043b67a5bbb61d0fb071.png",
+    "static/media/doctor4.png": "/utch_site/static/media/doctor4.c241da8814d729c58e33.png",
+    "static/media/logo.svg": "/utch_site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/utch_site/index.html",
+    "main.eff3352f.css.map": "/utch_site/static/css/main.eff3352f.css.map",
+    "main.e2560b65.js.map": "/utch_site/static/js/main.e2560b65.js.map",
+    "787.b5ba5925.chunk.js.map": "/utch_site/static/js/787.b5ba5925.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eff3352f.css",
+    "static/js/main.e2560b65.js"
+  ]
+}
