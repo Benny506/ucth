@@ -57,7 +57,32 @@ export default function HomeOurBlog(){
                         </h2>                    
                     </div>
                     <div>
-                        <button className="home-about-btn rounded-3 p-0 m-0 px-4 py-2">Read All Blogs</button>
+                        <button className="p-0 m-0">
+                            <div 
+                                className="cont_1 p-0 m-0"
+                                style={{
+                                    backgroundColor: '#000FB0',
+                                    borderRadius: "10px"
+                                }}
+                            >
+                                <div className="cont_2 p-0 m-0"
+                                >
+                                    <p 
+                                        className="cont_3 px-4 py-2 text-white"
+                                        style={{
+                                            border: "none",
+                                            borderRadius: "10px"
+                                        }}
+                                    >
+                                        Read All Blogs
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>                                                
+                                    </p>
+                                </div>
+                            </div>                                    
+                        </button>                        
                     </div>
                 </div>
                 <div className="d-flex flex-wrap justify-content-between align-items-start">

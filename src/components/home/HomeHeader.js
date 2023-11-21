@@ -23,13 +23,46 @@ export function HomeHeader(){
                         </div>
                         <div className="d-flex flex-wrap align-items-center">
                             <div className="mb-lg-0 mb-3">
-                                <button className="p-0 m-0 home-header-appointment-btn px-4 py-2">
-                                    Make an Appointment
+                                <button className="p-0 m-0">
+                                    <div 
+                                        className="cont_1 p-0 m-0"
+                                        style={{
+                                            backgroundColor: '#000FB0',
+                                            borderRadius: "20px"
+                                        }}
+                                    >
+                                        <div className="cont_2 p-0 m-0"
+                                        >
+                                            <p 
+                                                className="cont_3 px-4 py-2 text-white"
+                                                style={{
+                                                    border: "none",
+                                                    borderRadius: "20px"
+                                                }}
+                                            >
+                                                Make an Appointment
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>                                                
+                                            </p>
+                                        </div>
+                                    </div>                                    
                                 </button>
                             </div>
                             <div>
-                                <button className="p-0 m-0 home-header-learnmore-btn mx-lg-4 m- px-4 py-2">
-                                    Learn More
+                                <button className="p-0 m-0 mx-lg-4">
+                                    <div className="cont_1 rounded-3 p-0 m-0">
+                                        <div className="cont_2 p-0 m-0">
+                                            <p className="cont_3 px-4 py-2">
+                                                Learn More
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>                                                
+                                            </p>
+                                        </div>
+                                    </div>
                                 </button>
                             </div>
                         </div>

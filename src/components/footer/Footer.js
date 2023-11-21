@@ -99,16 +99,37 @@ export default function Footer(){
                             className="footer-input p-3 mb-4 w-100"
                             placeholder="Email address"
                         />
-                        <button className="w-100 py-3 footer-subscribe-btn d-flex align-items-center justify-content-center">
-                            <span className="mx-2">
-                                Subscribe
-                            </span>
-                            <span className="mx-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="19" viewBox="0 0 24 19" fill="none">
-                                <path d="M22.3333 9.36328L14.3333 1.36328M22.3333 9.36328L14.3333 17.3633M22.3333 9.36328H8.33325M0.999918 9.36328H4.33325" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </span>
-                        </button>
+                        <button className="p-0 m-0 w-100">
+                            <div 
+                                className="cont_1 p-0 m-0"
+                                style={{
+                                    backgroundColor: '#000FB0',
+                                    borderRadius: "20px"
+                                }}
+                            >
+                                <div className="cont_2 p-0 m-0"
+                                >
+                                    <p 
+                                        className="cont_3 px-4 py-2 text-white"
+                                        style={{
+                                            border: "none",
+                                            borderRadius: "20px"
+                                        }}
+                                    >
+                                        Subscribe
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>   
+                                    <span>
+                                        <svg className="my-2" xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 19" fill="none">
+                                            <path d="M22.3333 9.36328L14.3333 1.36328M22.3333 9.36328L14.3333 17.3633M22.3333 9.36328H8.33325M0.999918 9.36328H4.33325" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </span>                                                                                 
+                                    </p>
+                                </div>
+                            </div>                                    
+                        </button>                        
                     </div>
                 </div>                
             </div>

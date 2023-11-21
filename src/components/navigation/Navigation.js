@@ -53,7 +53,7 @@ export default function Navigation(){
                         <img src={logo} />
                     </div>
                     <div>
-                        <h1 className="nav-logo-text m-0 p-0 mx-3">UTCH</h1>
+                        <h1 className="nav-logo-text m-0 p-0 mx-3">UCTH</h1>
                     </div>
                 </div>
                 <div className="col-lg-5 d-flex justify-content-between">
@@ -62,15 +62,63 @@ export default function Navigation(){
                     }
                 </div>
                 <div className="col-lg-2 d-flex align-items-center">
-                    <div>
-                        <button className="nav-signup-btn py-1 px-3 mx-1">
-                            Sign up
-                        </button>
+                    <div className="mx-1">
+                        <button className="p-0 m-0">
+                            <div 
+                                className="cont_1 p-0 m-0"
+                                style={{
+                                    backgroundColor: 'transparent',
+                                    borderRadius: "20px"
+                                }}
+                            >
+                                <div className="cont_2 p-0 m-0"
+                                >
+                                    <p 
+                                        className="cont_3 px-3 py-1"
+                                        // onMouseOver={e => e.target.style.color = '#fff'}
+                                        // onMouseLeave={e => e.target.style.color = '#000'}
+                                        style={{
+                                            border: "none",
+                                            borderRadius: "20px",
+                                        }}
+                                    >
+                                        Sign Up
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>                                                
+                                    </p>
+                                </div>
+                            </div>                                    
+                        </button>                        
                     </div>                     
-                    <div>
-                        <button className="nav-login-btn py-1 px-3 mx-1">
-                            Login
-                        </button>
+                    <div className="mx-1">
+                        <button className="p-0 m-0">
+                            <div 
+                                className="cont_1 p-0 m-0"
+                                style={{
+                                    backgroundColor: '#000FB0',
+                                    borderRadius: "20px"
+                                }}
+                            >
+                                <div className="cont_2 p-0 m-0"
+                                >
+                                    <p 
+                                        className="cont_3 px-3 py-1 text-white"
+                                        style={{
+                                            border: "none",
+                                            borderRadius: "20px"
+                                        }}
+                                    >
+                                        Login
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>                                                
+                                    </p>
+                                </div>
+                            </div>                                    
+                        </button>                        
                     </div>                   
                 </div>
             </div>

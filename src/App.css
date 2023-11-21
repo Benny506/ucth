@@ -21,3 +21,65 @@ button{
 .input:active{
     outline: none;
 }
+
+
+/* button hover effect */
+.cont_1 .cont_2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cont_1 .cont_2 .cont_3 {
+    --c: Blue;
+    color: var(--c);
+    border: 1.5px solid var(--c);
+    border-radius: 0.5em;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;    
+}
+
+.cont_1 .cont_2 .cont_3 span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+.cont_1 .cont_2 .cont_3:hover {
+    color: #fff;
+}
+
+.cont_1 .cont_2 .cont_3:hover span {
+    transform: translateY(0) scale(2);
+}
+
+.cont_1 .cont_2 .cont_3 span:nth-child(1) {
+    --n: 1;
+}
+
+.cont_1 .cont_2 .cont_3 span:nth-child(2) {
+    --n: 2;
+}
+
+.cont_1 .cont_2 .cont_3 span:nth-child(3) {
+    --n: 3;
+}
+
+.cont_1 .cont_2 .cont_3 span:nth-child(4) {
+    --n: 4;
+}

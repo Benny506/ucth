@@ -43,8 +43,33 @@ export default function HomeConsultation(){
                                 </div>
                             </div>                            
                         </div>
-                        <div>
-                            <button className="home-about-btn p-0 m-0 px-4 py-2">Learn More</button>
+                        <div>                          
+                            <button className="p-0 m-0">
+                                <div 
+                                    className="cont_1 p-0 m-0"
+                                    style={{
+                                        backgroundColor: '#000FB0',
+                                        borderRadius: "20px"
+                                    }}
+                                >
+                                    <div className="cont_2 p-0 m-0"
+                                    >
+                                        <p 
+                                            className="cont_3 px-4 py-2 text-white"
+                                            style={{
+                                                border: "none",
+                                                borderRadius: "20px"
+                                            }}
+                                        >
+                                            Learn More
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>                                                
+                                        </p>
+                                    </div>
+                                </div>                                    
+                            </button>
                         </div>
                     </div>
                 </div>
