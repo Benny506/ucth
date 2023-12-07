@@ -1,0 +1,15 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#aboutcontainer{
+    font-family: 'Open Sans', sans-serif ;
+    font-size: 18px;
+}
+#welcometoucth{
+    color: #000FB0;
+    font-weight: 600;
+}
+
