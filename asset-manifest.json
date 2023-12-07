@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/utch_site/static/css/main.4367d08e.css",
-    "main.js": "/utch_site/static/js/main.917dd529.js",
+    "main.css": "/utch_site/static/css/main.22a7b797.css",
+    "main.js": "/utch_site/static/js/main.0b63d284.js",
     "static/js/787.b5ba5925.chunk.js": "/utch_site/static/js/787.b5ba5925.chunk.js",
     "static/media/home_consultation_img.png": "/utch_site/static/media/home_consultation_img.3f1ba6da11432ed23698.png",
     "static/media/home_book_appointment_img.png": "/utch_site/static/media/home_book_appointment_img.c4fab04add6725667e3b.png",
+    "static/media/clinical_image.png": "/utch_site/static/media/clinical_image.4cde0c7ffbd392ef1267.png",
+    "static/media/training_image.png": "/utch_site/static/media/training_image.808a5a7d9fdd1f3698b0.png",
+    "static/media/research_image.png": "/utch_site/static/media/research_image.066489d1b34dc306c2a1.png",
     "static/media/home_about_img.png": "/utch_site/static/media/home_about_img.3b3461f159a1dfbb3140.png",
+    "static/media/old_lady.png": "/utch_site/static/media/old_lady.34f77f1809ac26aa9138.png",
     "static/media/home_header_img.png": "/utch_site/static/media/home_header_img.e1b2e7d9950e64b6b90e.png",
     "static/media/blogImg1.png": "/utch_site/static/media/blogImg1.4d0df96418f619526a3c.png",
     "static/media/blogImg4.png": "/utch_site/static/media/blogImg4.350feae36ff44c4111b1.png",
@@ -22,12 +26,12 @@
     "static/media/doctor4.png": "/utch_site/static/media/doctor4.c241da8814d729c58e33.png",
     "static/media/logo.svg": "/utch_site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/utch_site/index.html",
-    "main.4367d08e.css.map": "/utch_site/static/css/main.4367d08e.css.map",
-    "main.917dd529.js.map": "/utch_site/static/js/main.917dd529.js.map",
+    "main.22a7b797.css.map": "/utch_site/static/css/main.22a7b797.css.map",
+    "main.0b63d284.js.map": "/utch_site/static/js/main.0b63d284.js.map",
     "787.b5ba5925.chunk.js.map": "/utch_site/static/js/787.b5ba5925.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4367d08e.css",
-    "static/js/main.917dd529.js"
+    "static/css/main.22a7b797.css",
+    "static/js/main.0b63d284.js"
   ]
 }
